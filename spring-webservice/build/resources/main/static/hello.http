@@ -1,0 +1,31 @@
+#POST http://13.125.236.67:8080/apply
+POST http://localhost:8080/CancleOrReturn
+Content-Type: application/json
+
+{
+  "user_id": "1361388100",
+  "item_idx": 1,
+  "category_idx": 1,
+  "start": [
+    2016,
+    1,
+    1,
+    10,
+    10,
+    10
+  ],
+  "end": [
+    2016,
+    1,
+    1,
+    10,
+    10,
+    11
+  ],
+  "recommend": 1,
+  "start_cabinet_idx": 1,
+  "end_cabinet_idx": 1,
+  "total_amount": 1500
+}
+
+###
