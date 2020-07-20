@@ -1,8 +1,8 @@
-## BEBLET
+# BEBLET
 2020 Capstone Project. Tablet Rental App. Spring Boot, Vue.js, Apache Cordova, AWS, MYSQL
 
 
-#1. BeBlet_APK_File.apk
+# 1. BeBlet_APK_File.apk
 
 Apk executable file built as Hybrid App.
 You can install on Andriod OS.
@@ -11,7 +11,7 @@ I didn't upload this file because of security reasons.
 
 
 
-#2. client_build
+# 2. client_build
 
 Project directory for building client application.
 Cordova CLI and Plugins handling Native App functions included.
@@ -20,7 +20,7 @@ In top-level folder's plugins directory, cordova plugins are stored.
 
 
 
-#3. front_end
+# 3. front_end
 
 Vue.js project consists of SPA.
 Source codes for handling cliend's logics are included.
@@ -30,7 +30,7 @@ After installing projects #2, 3, installing in local by 'npm install' command is
 
 
 
-#4. spring-webservice
+# 4. spring-webservice
 
 Server application using Java SpringBoot framework.
 works as combination of API server and DB server.
