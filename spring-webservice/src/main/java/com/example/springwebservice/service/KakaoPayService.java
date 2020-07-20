@@ -50,23 +50,11 @@ public class KakaoPayService {
         RestTemplate restTemplate = new RestTemplate();
         // 서버로 요청할 Heaader
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Authorization", "KakaoAK " + "16dbafbd576dc51ec0cb7a3ade20a721");
+        headers.add("Authorization", "KakaoAK " + "***admin key***");
         headers.add("Accept", MediaType.APPLICATION_JSON_UTF8_VALUE);
         headers.add("Content-Type", MediaType.APPLICATION_FORM_URLENCODED_VALUE + ";charset=UTF-8");
 
         int tid = (int)paymentRepository.count();
-
-//        System.out.println("여기서는 저장됨");
-//        PaymentSaveRequestDto dto =new PaymentSaveRequestDto();
-//        dto.setTAX_FREE_AMOUNT(0);
-//        dto.setTOTAL_AMOUNT(info.getTotal_amount());
-//        dto.setTID(String.valueOf(tid));
-//        dto.setQUANTITY(1);
-//        dto.setITEM_NAME(String.valueOf(info.getItem_idx()));
-//        dto.setSTART_TIME(info.getStart());
-//        dto.setPARTNER_USER_ID(info.getUser_id());
-//        dto.setPARTNER_ORDER_ID(info.getUser_id());
-//        paymentRepository.save(dto.toEntity());
 
         // 서버로 요청할 Body
         MultiValueMap<String, String> params = new LinkedMultiValueMap<String, String>();
@@ -108,7 +96,7 @@ public class KakaoPayService {
         System.out.println("1");
         // 서버로 요청할 Header
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Authorization", "KakaoAK " + "52fe79625ce67af1245667efbb7ae4de");
+        headers.add("Authorization", "KakaoAK " + "***admin key***");
         headers.add("Accept", MediaType.APPLICATION_JSON_UTF8_VALUE);
         headers.add("Content-Type", MediaType.APPLICATION_FORM_URLENCODED_VALUE + ";charset=UTF-8");
 
@@ -163,7 +151,7 @@ public class KakaoPayService {
 
         // 서버로 요청할 Heaader
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Authorization", "KakaoAK " + "52fe79625ce67af1245667efbb7ae4de");
+        headers.add("Authorization", "KakaoAK " + "admin key");
         headers.add("Accept", MediaType.APPLICATION_JSON_UTF8_VALUE);
         headers.add("Content-Type", MediaType.APPLICATION_FORM_URLENCODED_VALUE + ";charset=UTF-8");
 
