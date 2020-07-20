@@ -35,7 +35,7 @@ public class MemberRepositoryTest {
                 .USER_NAME("name1")
                 .USER_PHONE("000-0000-0000")
                 .USER_PW("1232")
-                .USER_EMAIL("hovy199431@gmail.com")
+                .USER_EMAIL("aaa@gmail.com")
                 .USER_GENDER("female")
                 .USER_NICKNAME("nick")
                 .build()
